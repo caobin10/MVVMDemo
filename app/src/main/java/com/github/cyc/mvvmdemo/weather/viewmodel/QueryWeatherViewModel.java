@@ -1,14 +1,13 @@
 package com.github.cyc.mvvmdemo.weather.viewmodel;
 
-import android.databinding.ObservableBoolean;
-import android.databinding.ObservableField;
-import android.util.Log;
 
+import android.util.Log;
+import androidx.databinding.ObservableBoolean;
+import androidx.databinding.ObservableField;
 import com.github.cyc.mvvmdemo.http.RetrofitManager;
 import com.github.cyc.mvvmdemo.weather.model.WeatherData;
 import com.github.cyc.mvvmdemo.weather.model.WeatherInfo;
 import com.github.cyc.mvvmdemo.weather.request.QueryWeatherRequest;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
